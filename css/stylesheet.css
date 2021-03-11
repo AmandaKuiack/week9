@@ -2,8 +2,25 @@ body {
     background-color: antiquewhite;
 }
 nav {
+    display: flex;
     border: solid 2px burlywood;
+    justify-content:space-evenly;
 }
-@media screen and (width: 600px) {
+@media screen and (min-width: 600px) {
+    body {
+        display:grid;
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 100px;
+
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    section {
+        padding-left: 5px;
+    }
+
     
 }
