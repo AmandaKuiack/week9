@@ -1,0 +1,9 @@
+body {
+    background-color: antiquewhite;
+}
+nav {
+    border: solid 2px burlywood;
+}
+@media screen and (width: 600px) {
+    
+}
